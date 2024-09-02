@@ -1,4 +1,4 @@
-from ..text_handler.text_detector import txt_detector
+from ..text_handler import text_detector as txt
 
 def app():
-  txt_detector()
+  txt.txt_detector()
